@@ -261,6 +261,26 @@ let charArray = ["arbre","bouteille","index","outils","yeux","nez"]
 let exo18 = onlyVoyelleArray(charArray);
 console.log(exo18);
 
-// eco 19:
+// exo 18 bis
+
+function onlyVoyellArray2(arg1,arg2){
+  let newArray =[];
+  let firstChar;
+  for (let index = 0; index < arg1.length; index++){
+    firstChar = arg1[index].charAt(0);
+    for (let index2 = 0; index2 < arg2.length; index2++){
+      if(firstChar == arg2[index2]){
+        newArray.push(arg1[index]);
+      }
+    }
+  }
+  return newArray;
+}
+
+let voyellArray = ["a","e","i","o","u","y"];
+
+let exo18bis = onlyVoyellArray2(charArray,voyellArray);
+console.log(exo18bis);
+// exo 19:
 /////////////////////////
 ////////////////////////
