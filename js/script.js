@@ -261,4 +261,6 @@ let charArray = ["arbre","bouteille","index","outils","yeux","nez"]
 let exo18 = onlyVoyelleArray(charArray);
 console.log(exo18);
 
-// exo 19:
+// eco 19:
+/////////////////////////
+////////////////////////
